@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400&family=Macondo+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400&family=Macondo+Swash+Caps&display=swap");
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+nav {
+    padding-right: 20px;
+}
+
+nav .collapse {
+    color: #10278f;
+    font-family: Cairo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 101px;
+}
+
+.navActive a {
+    color: #f60;
+}
+
+nav .collapse ul li a {
+    margin-left: 26.67px;
+}
+
+nav .collapse ul li a:hover {
+    color: #f60;
+}
+
+nav .logo {
+    padding-left: 52px;
+}
+
+/* start- section -hero */
+.hero {
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.hero .match {
+    position: relative;
+    height: 65vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/section-onek.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team span.name {
+    color: #10278F;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.team span.score {
+    color: #000;
+    font-family: Roboto;
+    font-size: 46.903px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero .match p {
+    color: #fff;
+    font-family: Cairo;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.score-cards {
+    margin-top: 40px;
+    overflow: hidden;
+    gap: 10px;
+    display: flex;
+}
+
+.score-card {
+    /* display: flex; */
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.history {
+    background-color: #10278f;
+    /* width: fit-content; */
+}
+
+.history p {
+    margin: 2px 0;
+    text-align: center;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 23.451px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.team {
+    gap: 1%;
+    display: flex;
+    background-color: #f60;
+}
+
+.team-one {
+    padding-right: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* End sectiuon hero */
+
+.scoreSection {
+    padding: 30px;
+    width: 100%;
+    background-color: #222;
+    filter: drop-shadow(0px 7.158px 66.216px rgba(0, 0, 0, 0.25));
+    color: #FFF;
+    font-family: Cairo;
+    font-size: 21.475px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.scoreSection p {
+    margin-bottom: 0%;
+}
+
+.searchMatch {
+    margin-top: 30px;
+    background: #2C2C2C;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mySearch {
+    height: 100%;
+    width: 50%;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    outline: none;
+    color: #FFF;
+    font-family: Cairo;
+    font-size: 21.475px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.mySearch::placeholder {
+    height: 90%;
+    color: #FFF;
+    font-family: Cairo;
+    font-size: 21.475px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.matchTime {
+    margin-block: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.timeItem {
+    background: #2C2C2C;
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+.timeItem:hover {
+    color: #FF6600;
+    border: 4px solid #FF6600;
+    box-sizing: border-box;
+}
+
+.tableScoce {
+    width: 100%;
+    border: 1.79px solid #171717;
+    background: #2C2C2C;
+    margin-bottom: 30px;
+}
+
+.scoreSection .tableHeader,
+.scoreSection .tableRow {
+    padding: 30px;
+    width: 100%;
+}
+
+.scoreSection .tableHeader {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scoreSection .titleName img {
+    margin-left: 20px;
+}
+
+.scoreSection .title {
+    color: #808080;
+    font-family: Cairo;
+    font-size: 21.475px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.scoreSection .tableRow,
+.score {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scoreSection .tableRow2 {
+    border-right: 1.79px solid #171717;
+    border-left: 1.79px solid #171717;
+    background: #222;
+}
+
+.score p {
+    margin-inline: 10px;
+
+}
+
+.empty {
+    width: 140px;
+    height: 10px;
+    visibility: hidden;
+}
+
+.scoreSection .titleName {
+    display: flex;
+}
+
+.scoreSection .tableRow3 {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.score+p {
+    width: 100px;
+    text-align: center;
+}
+
+/* ////////////////////////////// */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+.leagueTable {
+    border: 5px solid #E5E5E5;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.tableTitle,
+.tableHeader,
+.tableRow {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tableHeader {
+    background-color: #10278F;
+    color: #FFF;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 22.486px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tableHeader p {
+    margin: 0% !important;
+}
+
+.teamName {
+    display: flex;
+    align-items: center;
+}
+
+.teamName img {
+    margin-left: 20px;
+}
+
+.teamName p {
+    color: #000;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 22.486px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.headerItems {
+    text-align: center;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+
+.headerItems p {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22.486px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tableTitle p {
+    color: #000;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 22.486px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.headerItemsTitle p {
+    color: #FFF;
+}
